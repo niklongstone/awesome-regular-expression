@@ -7,7 +7,8 @@ Please see [CONTRIBUTING](https://github.com/niklongstone/awesome-regular-expres
 ## Table of Contents
  - [Internet](#internet)
     - [email](#email)
-
+    - [url](#url)
+ - [Number](#number)
 
 ## Internet
 #### Email
