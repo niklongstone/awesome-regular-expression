@@ -6,8 +6,9 @@ Please see [CONTRIBUTING](https://github.com/niklongstone/awesome-regular-expres
 
 ## Table of Contents
  - [Internet](#internet)
-    - [email](#email)
-    - [url](#url)
+    - [Email](#email)
+    - [Url](#url)
+    - [HTTP Response](#http-response)
  - [Number](#number)
 
 ## Internet
@@ -20,6 +21,11 @@ match|expression
 match|expression  
 :---|:---  
 `http://test.com/test-1` | `^(http|https|ftp)\:[\/]{2}[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\'\/\\\+&amp;%\$#\=~])*$`
+
+#### HTTP Response
+match|expression  
+:---|:---  
+`HTTP/1.1 400` | `HTTP\/1.1 (101|20[0-6]|30[0-5]|4(0|1)[0-8]|50[0-5])`
 
 ##Number
 match|expression 
