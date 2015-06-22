@@ -25,7 +25,7 @@ match|expression
 #### HTTP Response
 match|expression  
 :---|:---  
-`HTTP/1.1 400` | `HTTP\/1.1 (101|20[0-6]|30[0-5]|4(0|1)[0-8]|50[0-5])`
+`HTTP/1.1 400` | `HTTP\/1\.1 (101|20[0-6]|30[0-5]|4(0|1)[0-8]|50[0-5])`
 
 ##Number
 match|expression 
