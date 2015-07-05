@@ -20,7 +20,7 @@ match|expression
 #### Url
 match|expression  
 :---|:---  
-`http://test.com/test-1` | `^(http|https|ftp)\:[\/]{2}[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\'\/\\\+&amp;%\$#\=~])*$`
+`http://test.com:8080/test-1` | `^(http|https|ftp)\:[\/]{2}([a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,4})(:[0-9]+)?\/?([a-zA-Z0-9\-\._\?\,\'\/\\\+&amp;%\$#\=~]*)`
 
 #### HTTP Response
 match|expression  
